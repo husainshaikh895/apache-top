@@ -1,0 +1,10 @@
+services:
+  log-generator:
+    build: .
+    command: sh ./run.sh
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - PYTHONUNBUFFERED=0
+
+#docker-compose up

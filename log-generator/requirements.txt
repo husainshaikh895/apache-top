@@ -1,0 +1,5 @@
+fake-factory
+numpy
+Faker
+pytz
+tzlocal

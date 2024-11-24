@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "apache-top": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.199",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "printf": "^0.6.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.7.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
