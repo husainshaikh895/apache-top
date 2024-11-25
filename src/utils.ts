@@ -106,7 +106,7 @@ export function parseData(data_array: String[]) {
     }
 }
 
-function getConvertedDate(timestamp: string) {
+export function getConvertedDate(timestamp: string) {
     // returns date in proper format from the timestamp
     const regexPattern = /(\d){2}\/(\w){3}\/\d{4}/;
     // a simple regex to match date\month\year, I've kept the format same for now 
@@ -117,7 +117,7 @@ function getConvertedDate(timestamp: string) {
     return null;
 }
 
-function parseLine(line: String) {
+export function parseLine(line: String) {
     // parser function for each line
     const extractedFields = line.match(regexPattern);
     if (extractedFields) {
