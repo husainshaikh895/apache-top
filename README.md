@@ -35,16 +35,3 @@ docker compose -f ./log-generator/docker-compose.yml up
 # Stop log-generator
 docker compose -f ./log-generator/docker-compose.yml down
 ```
-
-### Tasks
-- AAD, I have apache-top parser
-- AAD, I have apache-top printer
-  - AAD, I have apache-top printer: Overall Analysed Requests
-  - AAD, I have apache-top printer: Unique Visitors per Day
-  - AAD, I have apache-top printer: Requested Files
-  - AAD, I have apache-top printer: 404 Requested Files
-- AAD, I have apache-top test units
-
-### Limitation
-- Do NOT use syntax ```let```
-- Do NOT use new packages outside what are listed in packages.json
